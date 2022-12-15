@@ -36,9 +36,9 @@ int FindNumber(int[] array)
     return result;
 }
 
-Console.Write("Введите количество эдиментов: ");
+Console.Write("Введите количество элиментов: ");
 int size = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите минимальное размер числа: ");
+Console.Write("Введите минимальный размер числа: ");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите максимальный размер числа: ");
 int max = Convert.ToInt32(Console.ReadLine());
@@ -84,9 +84,9 @@ int SumNumber(int[] array)
     return sum;
 }
 
-Console.Write("Введите количество эдиментов: ");
+Console.Write("Введите количество элиментов: ");
 int size = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите минимальное размер числа: ");
+Console.Write("Введите минимальный размер числа: ");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите максимальный размер числа: ");
 int max = Convert.ToInt32(Console.ReadLine());
@@ -101,7 +101,7 @@ Console.WriteLine($"Сумма чисел на нечетных позициях
 
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
-
+/*
 double[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     double[] array = new double[size];
@@ -141,12 +141,15 @@ double FindDifferenc(double[] array)
         }
     }
     dif = max - min;
+    dif = Math.Round(dif, 2);
+    Console.WriteLine($"Максимальное число {max}.");
+    Console.WriteLine($"Минимальное число {min}.");
     return dif;
 }
 
-Console.Write("Введите количество эдиментов: ");
+Console.Write("Введите количество элиментов: ");
 int size = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите минимальное размер числа: ");
+Console.Write("Введите минимальный размер числа: ");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите максимальный размер числа: ");
 int max = Convert.ToInt32(Console.ReadLine());
@@ -157,3 +160,4 @@ ShowArray(myArray);
 double ans = FindDifferenc(myArray);
 
 Console.WriteLine($"Разница между максимальным и минимальным числом ровна {ans}.");
+*/
